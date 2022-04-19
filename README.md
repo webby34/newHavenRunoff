@@ -1,5 +1,7 @@
 # Modeling Runoff in the New Haven River Watershed
 
+## PLEASE NOTE THIS IS A WORK IN PROGRESS AND NOT THE FINAL PAGE
+
 The purpose of this project is to provide conservationists and local policymakers a tool to identify and target potential high risk runoff areas. I created this app as part of my independent senior research as a Conservation Biology major with a strong interest in GIS. It is my hope that this work may be used mitigate the effects of non-point source pollution in the New Haven River Watershed. I have spent countless hours exploring, fishing, and swimming in the New Haven River and would love nothing more than to contribute towards the protection of this river for future generations to enjoy in a similar fashion. I can be reached for questions, comments, and suggestions at webby@middlebury.edu. PUT A PICTURE OF ME IN THE RIVER!
 
 __The app can be found [here](https://webby.users.earthengine.app/view/newhavenrunoff)__
@@ -30,13 +32,13 @@ The app also contains an SCS Curve Number layer which is a mathematical model cr
 
 For this model, data was preprocessed in WhiteboxTools and QGIS. The model itself was done using SAGA, an open source GIS software. The Diffuse Pollution Risk tool takes a DEM and weighted land cover map and identify areas of risk based on land cover, hydrologic connectivity, TPI, and slope. For this model I used land cover weights based on a study by [Perks et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28185700/). More information about the Diffuse pollution risk tool in SAGA can be found [here](https://saga-gis.sourceforge.io/saga_tool_doc/8.1.1/sim_hydrology_4.html).
 
-![Diffuse Workflow](/webby-github-pages/assets/diffuseWorkflow.png)
+![Diffuse Workflow](/webby34/newHavenRunoff/diffuseWorkflow.png)
 
 #### SCS Curve Number
 
 This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff).
 
-![SCS Workflow](/webby-github-pages/assets/CNWorkflow.png)
+![SCS Workflow](/webby34/newHavenRunoff/CNWorkflow.png)
 
 
 ## Datasets
