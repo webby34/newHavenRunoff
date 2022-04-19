@@ -32,13 +32,13 @@ The app also contains an SCS Curve Number layer which is a mathematical model cr
 
 For this model, data was preprocessed in WhiteboxTools and QGIS. The model itself was done using SAGA, an open source GIS software. The Diffuse Pollution Risk tool takes a DEM and weighted land cover map and identify areas of risk based on land cover, hydrologic connectivity, TPI, and slope. For this model I used land cover weights based on a study by [Perks et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28185700/). More information about the Diffuse pollution risk tool in SAGA can be found [here](https://saga-gis.sourceforge.io/saga_tool_doc/8.1.1/sim_hydrology_4.html).
 
-![Diffuse Workflow](/webby34/newHavenRunoff/diffuseWorkflow.png)
+![Diffuse Workflow](diffuseWorkflow.png)
 
 #### SCS Curve Number
 
 This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff).
 
-![SCS Workflow](/webby34/newHavenRunoff/CNWorkflow.png)
+![SCS Workflow](CNWorkflow.png)
 
 
 ## Datasets
