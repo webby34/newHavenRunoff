@@ -38,7 +38,7 @@ For this model, data was preprocessed in WhiteboxTools and QGIS. The model itsel
 
 This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff).
 
-![SCS Workflow](CNWorkflow.png)
+![SCS Workflow](CNworkflow.png)
 
 
 ## Datasets
