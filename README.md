@@ -1,6 +1,6 @@
 
 
-## PLEASE NOTE THIS IS A WORK IN PROGRESS AND NOT THE FINAL PAGE
+#Modeling Runoff in the New Haven River Watershed
 
 The purpose of this project is to provide conservationists and local policymakers a tool to identify and target potential high risk runoff areas. I created this app as part of my independent senior research as a Conservation Biology major with a strong interest in GIS. It is my hope that this work may be used mitigate the effects of non-point source pollution in the New Haven River Watershed. I have spent countless hours exploring, fishing, and swimming in the New Haven River and would love nothing more than to contribute towards the protection of this river for future generations to enjoy in a similar fashion. I can be reached for questions, comments, and suggestions at webby@middlebury.edu.
 
@@ -13,7 +13,7 @@ __The app can be found [here](https://webby.users.earthengine.app/view/newhavenr
 ## Instructions for Using the App
 
 
-Layers can be selected/deselected using the checkboxes on the right side panel. By default, the diffuse pollution risk layer is displayed over a hillshade layer. This allows the viewer to see high risk pollution areas and understand the topography of the region. The opacity of layers can be adjusted by using the sider that appears once a layer has been selected. EXPLAIN WHY DIFFUSE POLLUTION IS AN ISSUE
+Layers can be selected/deselected using the checkboxes on the right side panel. By default, the diffuse pollution risk layer is displayed over a hillshade layer. This allows the viewer to see high risk pollution areas and understand the topography of the region. The opacity of layers can be adjusted by using the sider that appears once a layer has been selected. 
 
 ##### Runoff Models
 The SCIMAP risk mapping model produces two intermediate layers and a final Diffuse Pollution Risk layer.
@@ -41,6 +41,9 @@ This layer was created using whitebox tools. The python script for this work can
 ![SCS Workflow](CNworkflow.png)
 
 
+#### Water Quality Sampling
+In an effort to assess the validity of the model, I sampled water quality in the field. I sampled water from four sites: Where the Muddy Branch enters the New Haven, Eagle Park, Lincoln, and up in the headwaters of the New Haven by the Emily Proctor trailhead. I sampled for both turbidity and phosporous levels. This process is still ungoing and will be updated as I collect and analyize more data. 
+
 ## Datasets
 The following datasets were used in this project:
 - [VT Hydrography Dataset High Resolution NHD](https://geodata.vermont.gov/documents/VCGI::vt-hydrography-dataset-high-resolution-nhd/about)
@@ -54,9 +57,23 @@ The following datasets were used in this project:
 
 
 ## References and Resources
-This work was presented at the Middlebury College Spring Student Symposium. A recorded version of a practice presentation can be found here:
 
-The slides used in the presentation are also available for viewing.
+The following references were used throughout this project. Many of these sources provide case studies and application of the SCIMAP risk mapping (SAGA Diffuse Pollution Risk) framework or SCS methods.
 
-The following references were used throughout this project. Many of these sources provide case studies and application of the SCIMAP risk mapping (SAGA Diffuse Pollution Risk) framework.
+- [Al-Juaidi, 2018: A simplified GIS-based SCS-CN method for the assessment of land-use change on runoff](https://www.researchgate.net/publication/325571714_A_simplified_GIS-based_SCS-CN_method_for_the_assessment_of_land-use_change_on_runoff)
+
+- [Milledge et al., 2012: A Monte Carlo approach to the inverse problem of diffuse pollution risk in agricultural catchments](https://www.sciencedirect.com/science/article/pii/S004896971200873X)
+
+- [New Haven River – 2016 and 2017 Water Quality Summary](https://acrpc.org/wp-content/uploads/2021/03/2017-New-Haven-River.pdf)
+
+- [Nsibirwa, 2018: AN ASSESSMENT OF THE CRITICAL SOURCE AREAS AND TRANSPORT PATHWAYS OF DIFFUSE POLLUTION IN THE UMNGENI CATCHMENT, SOUTH AFRICA](https://ukzn-dspace.ukzn.ac.za/handle/10413/17276)
+
+- [Perks et al., 2017: Use of spatially distributed time-integrated sediment sampling networks and distributed fine sediment modeling to inform catchment management](https://pubmed.ncbi.nlm.nih.gov/28185700/)
+
+- [Purdue Engineering SCS Method](https://engineering.purdue.edu/mapserve/LTHIA7/documentation/scs.htm#:~:text=The%20SCS%20curve%20number%20method,find%20average%20annual%20runoff%20values.)
+
+ - [Richardson et al., 2019: Muddying the Picture? Forecasting Particulate Sources and Dispersal Patterns in Managed Catchments](https://www.frontiersin.org/articles/10.3389/feart.2019.00277/full)
+
+- [Vojtek and Vojteková,2016: GIS-BASED APPROACH TO ESTIMATE SURFACE RUNOFF IN SMALL CATCHMENTS: A CASE STUDY](https://sciendo.com/article/10.1515/quageo-2016-0030)
+
 
