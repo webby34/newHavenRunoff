@@ -20,9 +20,9 @@ The SCIMAP risk mapping model produces two intermediate layers and a final Diffu
 
 First, the SAGA tool calculates a locational risk, which is the likelihood that a given point can generate risk of pollution ([Milledge et al., 2012](https://www.sciencedirect.com/science/article/pii/S004896971200873X), [Nsibirwa, 2018](https://ukzn-dspace.ukzn.ac.za/handle/10413/17276)).
 
-The model also produces a delivery index, which is an indicator of hydrologic connectivity: high risk areas in red represent areas that are highly connected to the hydrologic flows of the watershed.
+The model also produces a delivery index, which is an indicator of hydrologic connectivity: high risk areas in red represent areas that are highly connected to the hydrologic flows of the watershed meaning pollution in these areas are likely to enter the river.
 
-The final and most important layer is the Diffuse Pollution Risk. This puts the two intermediate layer together, and indicates which areas are high risk for contributing diffuse pollution to a water body.
+The final and most important layer is Diffuse Pollution Risk. This puts the two intermediate layer together, and indicates which areas are high risk for contributing diffuse pollution to a water body.
 
 The app also contains an SCS Curve Number layer which is a mathematical model created by the USDA. This method predicts approximate runoff given a certain rain event, as a function of land use and hydrologic soil group. Hydrologic soil group is based on soil's runoff potential (A being the lowest and D the highest). A value of 100 indicates zero infiltration and 100% runoff, while a value of zero indicates 100% infiltration. More information can be found [here](https://engineering.purdue.edu/mapserve/LTHIA7/documentation/scs.htm#:~:text=The%20SCS%20curve%20number%20method,find%20average%20annual%20runoff%20values.)
 
@@ -30,19 +30,19 @@ The app also contains an SCS Curve Number layer which is a mathematical model cr
 
 #### Diffuse Pollution Risk
 
-For this model, data was preprocessed in WhiteboxTools and QGIS. The model itself was done using SAGA, an open source GIS software. The Diffuse Pollution Risk tool takes a DEM and weighted land cover map and identify areas of risk based on land cover, hydrologic connectivity, TPI, and slope. For this model I used land cover weights based on a study by [Perks et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28185700/). More information about the Diffuse pollution risk tool in SAGA can be found [here](https://saga-gis.sourceforge.io/saga_tool_doc/8.1.1/sim_hydrology_4.html).
+For this model, data was preprocessed in WhiteboxTools and QGIS. The model itself was done using SAGA, an open source GIS software. The Diffuse Pollution Risk tool takes a DEM and weighted land cover map and identify areas of risk based on land cover, hydrologic connectivity, TPI, and slope. Land cover types with higher weights are those more likely to contribute to diffuse pollution, such as agriculture. For this model I used land cover weights based on a study by [Perks et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28185700/). More information about the Diffuse pollution risk tool in SAGA can be found [here](https://saga-gis.sourceforge.io/saga_tool_doc/8.1.1/sim_hydrology_4.html).
 
 ![Diffuse Workflow](diffuseWorkflow.png)
 
 #### SCS Curve Number
 
-This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff).
+This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff). To run this script you will need a raster landcover dataset and a raster layer containing hydrologic soil group data. The script can be edited to reflect different land use/HSG combinations. 
 
 ![SCS Workflow](CNworkflow.png)
 
 
 #### Water Quality Sampling
-In an effort to assess the validity of the model, I sampled water quality in the field. I sampled water from four sites: Where the Muddy Branch enters the New Haven, Eagle Park, Lincoln, and up in the headwaters of the New Haven by the Emily Proctor trailhead. I sampled for both turbidity and phosporous levels. This process is still ungoing and will be updated as I collect and analyize more data. 
+In an effort to assess the validity of the model, I sampled water quality in the field. I sampled water from four sites: Where the Muddy Branch enters the New Haven, Eagle Park, Lincoln, and up in the headwaters of the New Haven by the Emily Proctor trailhead. I sampled for both turbidity and phosporous levels. This process is still ungoing and will be updated as I collect and analyze more data. 
 
 ## Datasets
 The following datasets were used in this project:
