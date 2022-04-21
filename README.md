@@ -34,6 +34,8 @@ For this model, data was preprocessed in WhiteboxTools and QGIS. The model itsel
 
 ![Diffuse Workflow](diffuseWorkflow.png)
 
+To run this model you will need a DEM and a weighted landcover raster. Land cover classes can be reclassifed into desired weights before running the tools. Higher weights should be given to land use types with higher risk of diffuse pollution. An optional precipitation raster can be included: if not the tool will run assuming uniform precipiation across the basin. In order to run the tool all layers must be resampled to have the same spatial resolution and extent. 
+
 #### SCS Curve Number
 
 This layer was created using whitebox tools. The python script for this work can be found [here](https://github.com/webby34/newHavenRunoff). To run this script you will need a raster landcover dataset and a raster layer containing hydrologic soil group data. The script can be edited to reflect different land use/HSG combinations. 
