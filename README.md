@@ -76,6 +76,6 @@ The following references were used throughout this project. Many of these source
 
  - [Richardson et al., 2019: Muddying the Picture? Forecasting Particulate Sources and Dispersal Patterns in Managed Catchments](https://www.frontiersin.org/articles/10.3389/feart.2019.00277/full)
 
-- [Vojtek and Vojteková,2016: GIS-BASED APPROACH TO ESTIMATE SURFACE RUNOFF IN SMALL CATCHMENTS: A CASE STUDY](https://sciendo.com/article/10.1515/quageo-2016-0030)
+- [Vojtek and Vojteková, 2016: GIS-BASED APPROACH TO ESTIMATE SURFACE RUNOFF IN SMALL CATCHMENTS: A CASE STUDY](https://sciendo.com/article/10.1515/quageo-2016-0030)
 
 
