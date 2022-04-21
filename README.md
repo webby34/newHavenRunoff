@@ -15,7 +15,7 @@ __The app can be found [here](https://webby.users.earthengine.app/view/newhavenr
 
 Layers can be selected/deselected using the checkboxes on the right side panel. By default, the diffuse pollution risk layer is displayed over a hillshade layer. This allows the viewer to see high risk pollution areas and understand the topography of the region. The opacity of layers can be adjusted by using the sider that appears once a layer has been selected. 
 
-##### Runoff Models
+#### Runoff Models
 The SCIMAP risk mapping model produces two intermediate layers and a final Diffuse Pollution Risk layer.
 
 First, the SAGA tool calculates a locational risk, which is the likelihood that a given point can generate risk of pollution ([Milledge et al., 2012](https://www.sciencedirect.com/science/article/pii/S004896971200873X), [Nsibirwa, 2018](https://ukzn-dspace.ukzn.ac.za/handle/10413/17276)).
