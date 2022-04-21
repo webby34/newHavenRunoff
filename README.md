@@ -1,6 +1,6 @@
 
 
-#Modeling Runoff in the New Haven River Watershed
+# Modeling Runoff in the New Haven River Watershed
 
 The purpose of this project is to provide conservationists and local policymakers a tool to identify and target potential high risk runoff areas. I created this app as part of my independent senior research as a Conservation Biology major with a strong interest in GIS. It is my hope that this work may be used mitigate the effects of non-point source pollution in the New Haven River Watershed. I have spent countless hours exploring, fishing, and swimming in the New Haven River and would love nothing more than to contribute towards the protection of this river for future generations to enjoy in a similar fashion. I can be reached for questions, comments, and suggestions at webby@middlebury.edu.
 
