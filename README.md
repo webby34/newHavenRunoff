@@ -63,6 +63,7 @@ The following datasets were used in this project:
 The following references were used throughout this project. Many of these sources provide case studies and application of the SCIMAP risk mapping (SAGA Diffuse Pollution Risk) framework or SCS methods.
 
 - [Al-Juaidi, 2018: A simplified GIS-based SCS-CN method for the assessment of land-use change on runoff](https://www.researchgate.net/publication/325571714_A_simplified_GIS-based_SCS-CN_method_for_the_assessment_of_land-use_change_on_runoff)
+- [Barenblitt and Fatoyinbo, 2020: Creating GEE Apps, NASA Applied Remote Sensing Training Program](https://appliedsciences.nasa.gov/sites/default/files/2020-10/Part3App_Final.pdf)
 
 - [Milledge et al., 2012: A Monte Carlo approach to the inverse problem of diffuse pollution risk in agricultural catchments](https://www.sciencedirect.com/science/article/pii/S004896971200873X)
 
@@ -77,5 +78,6 @@ The following references were used throughout this project. Many of these source
  - [Richardson et al., 2019: Muddying the Picture? Forecasting Particulate Sources and Dispersal Patterns in Managed Catchments](https://www.frontiersin.org/articles/10.3389/feart.2019.00277/full)
 
 - [Vojtek and Vojteková, 2016: GIS-BASED APPROACH TO ESTIMATE SURFACE RUNOFF IN SMALL CATCHMENTS: A CASE STUDY](https://sciendo.com/article/10.1515/quageo-2016-0030)
+
 
 
