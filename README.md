@@ -44,7 +44,7 @@ This layer was created using Whitebox Tools. The python script for this work can
 
 
 #### Water Quality Sampling
-In an effort to assess the validity of the model, I sampled water quality in the field. I sampled water from four sites: Where the Muddy Branch enters the New Haven, Eagle Park, Lincoln, and up in the headwaters of the New Haven by the Emily Proctor trailhead. I sampled for both turbidity and phosphorous levels. This process is still ongoing and will be updated as I collect and analyze more data. 
+In an effort to assess the validity of the model, I sampled water quality in the field. I sampled water from four sites: Where the Muddy Branch enters the New Haven, Eagle Park, Lincoln, and up in the headwaters of the New Haven by the Emily Proctor trailhead. I sampled for turbidity using a WSI multiparameter water quality probe. 
 
 ## Datasets
 The following datasets were used in this project:
